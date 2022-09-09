@@ -35,7 +35,9 @@ function nextSequence() {
   let randomChosenColor = buttonColors[randomNumber];
   gamePattern.push(randomChosenColor);
   playSound(randomChosenColor);
-  $("#" + randomChosenColor).fadeOut(100).fadeIn(100);
+  $("#" + randomChosenColor)
+    .fadeOut(100)
+    .fadeIn(100);
 }
 
 function startOver() {
@@ -54,7 +56,7 @@ function playSound(name) {
   audio.play();
 }
 
-function flashClass(selector, cls, delay=100) {
+function flashClass(selector, cls, delay = 100) {
   $(selector).addClass(cls);
   setTimeout(function() {
     $(selector).removeClass(cls);

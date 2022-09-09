@@ -1,0 +1,11 @@
+{
+  "name": "Simon Game",
+  "repo": "https://github.com/cekstedt/LAB-Simon-Game",
+  "challenger": "London App Brewery",
+  "challenge page": "https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12384246",
+  "hosted": "https://willowy-licorice-a4f905.netlify.app/",
+  "original": false,
+  "personal": false,
+  "thumbnail": "thumbnail.png",
+  "technologies": ["html", "css", "javascript", "jquery"]
+}
